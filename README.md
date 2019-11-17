@@ -46,4 +46,4 @@ public static int Find(String orgstr,String findstr){
 
 实验结果
 -------
-https://github.com/JST165411/111/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191117191254.png
+![](https://github.com/JST165411/111/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191117191254.jpg)</div>
