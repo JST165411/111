@@ -15,18 +15,30 @@
 --------
 ```
 public static StringBuffer Add(StringBuffer str) {
-StringBuffer str1=new StringBuffer();
-for(int i=0;i<str.length()/7;i++){
-str1.append(str.substring(7*i,7*(i+1)));
-if((i+1)%2!=0){
-str1.append("，");
-}
-else{
-str1.append("。").append("\n");
-}
-}
-return str1;
+  StringBuffer str1=new StringBuffer();
+  for(int i=0;i<str.length()/7;i++){
+    str1.append(str.substring(7*i,7*(i+1)));
+    if((i+1)%2!=0){
+     str1.append("，");
+    }
+    else{
+     str1.append("。").append("\n");
+    }
+  }
+  return str1;
 }
 ```
-添加“，”“。”的子函数<br>
-设置`for`循环中套一个`if`条件如果奇数加“，”否则加“。”<br>
+添加“，”“。”的子函数Add<br>
+设置`for`循环中套一个`if`条件如果奇数加“，”否则加“。” <br>
+```
+public static int Find(String orgstr,String findstr){
+ int x=0;
+ while(orgstr.indexOf(findstr)!=-1){
+  if(orgstr.indexOf(findstr)!=-1){
+   x++;
+   orgstr=orgstr.substring(orgstr.indexOf(findstr)+findstr.l
+  ```
+查询字词数量的子函数Find<br>
+定义整型x参数并初始化x=0
+利用`indexOf`在字符串中搜索字符或子串，返回查找对象首次在字符串中出现的位置，如果没有返回-1<br>
+利用`if`如果`indexOf`返回的值不等于-1则`x++`<br>
