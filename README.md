@@ -47,3 +47,7 @@ public static int Find(String orgstr,String findstr){
 实验结果
 -------
 ![](https://github.com/JST165411/111/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191117191254.jpg)</div>
+
+感想
+----
+整体实验难度不大，运用了并初步了解了新学的indexOf用法。还需多加熟练。
